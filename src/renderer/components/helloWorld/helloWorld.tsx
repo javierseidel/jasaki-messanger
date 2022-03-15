@@ -1,43 +1,42 @@
-
 import icon from '../../../../assets/icon.svg';
 
 function helloWorld() {
-    return(
+  return (
     <>
-        <div>
+      <div>
         <div className="Hello">
-            <img width="200px" alt="icon" src={icon} />
+          <img width="200px" alt="icon" src={icon} />
         </div>
         <h1>electron-react-boilerplate</h1>
         <div className="Hello">
-            <a
+          <a
             href="https://electron-react-boilerplate.js.org/"
             target="_blank"
             rel="noreferrer"
-            >
+          >
             <button type="button">
-                <span role="img" aria-label="books">
+              <span role="img" aria-label="books">
                 📚
-                </span>
-                Read our docs
+              </span>
+              Read our docs
             </button>
-            </a>
-            <a
+          </a>
+          <a
             href="https://github.com/sponsors/electron-react-boilerplate"
             target="_blank"
             rel="noreferrer"
-            >
+          >
             <button type="button">
-                <span role="img" aria-label="books">
+              <span role="img" aria-label="books">
                 🙏
-                </span>
-                Donate
+              </span>
+              Donate
             </button>
-            </a>
+          </a>
         </div>
-        </div>
+      </div>
     </>
-)
+  );
 }
 
 export default helloWorld;
