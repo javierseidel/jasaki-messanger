@@ -1,8 +1,8 @@
 import './App.css';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth } from './firebase';
-import Chat from './components/Chat';
 import Signin from './components/Signin';
+import Chat from './components/Chat';
 
 function App() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
