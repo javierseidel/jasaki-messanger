@@ -1,13 +1,13 @@
-import HelloWorld from './components/helloWorld/helloWorld';
 import './App.css';
+import Chat from './components/Chat';
+import Signin from './components/Signin';
 
 function App() {
   return (
-    <div>
-      <main>
-        <HelloWorld />
-      </main>
-    </div>
+    <>
+      <Signin />
+      <Chat />
+    </>
   );
 }
 
