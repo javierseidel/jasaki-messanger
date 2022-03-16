@@ -1,5 +1,11 @@
+import Signout from './Signout';
+
 function Chat() {
-  return <div>Chat</div>;
+  return (
+    <div>
+      <Signout />
+    </div>
+  );
 }
 
 export default Chat;
